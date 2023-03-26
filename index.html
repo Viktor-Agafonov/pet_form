@@ -12,18 +12,32 @@
     <div class="cub"></div>
     <div class="cub"></div>
   </div>
-  <form>
+  <form id="LogIn">
     <h3>Login Here</h3>
     <label for="username">Username</label>
     <input type="text" placeholder="Email or Phone" id="username" required>
     <label for="password">Password</label>
     <input type="password" class="password" placeholder="Password" id="password" minlength="8" required>
     <input class="button" type="submit" value="Log In"></input>
-    <button class="button">Create an account</button>
+    <button class="button" id="registration">Create an account</button>
     <div class="social">
       <div class="google">Google</div>
       <div class="facebook">Facebook</div>
     </div>
   </form>
+  <form id="createAccount">
+    <h3>Login Here</h3>
+    <label for="username">Username</label>
+    <input type="text" placeholder="Email or Phone" id="username" required>
+    <label for="password">Password</label>
+    <input type="password" placeholder="Password" name="password" minlength="8" required>
+    <input type="password" placeholder="Password confirmation" name="passwordConfirmation" minlength="8" required>
+    <input class="button" type="submit" value="Registration"></input>
+    <div class="social">
+      <div class="google">Google</div>
+      <div class="facebook">Facebook</div>
+    </div>
+  </form>
+  <script src="main.js"></script>
 </body>
 </html>

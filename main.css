@@ -87,7 +87,7 @@
     font-weight: 300;
   }
   
-  .password {
+  .password, #PasswordConfirmation {
     margin-bottom: 60px;
   }
   
@@ -138,4 +138,8 @@
   
   .social i {
     margin-right: 4px;
+  }
+
+  #createAccount{
+    display: none;
   }
